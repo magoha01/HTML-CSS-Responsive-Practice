@@ -218,3 +218,117 @@ footer a, footer h3{
     margin-right:5%;
     margin-top:2%;
 }
+
+/* responsive styles 800px */
+
+/* tablet view */
+
+@media(max-width: 800px) {
+/* header section styles */
+    .logo{
+        width: 7%;
+    }
+    /* about section styles */
+    #about div{
+        width: 50%;
+        margin-right: 3%;
+        margin-top: 20%;
+    }
+    /* top section styles */
+    .text div{
+        width:80%;
+    }
+    /* footer section styles */
+    .bottom p{
+        margin-right:9.5%;
+    }
+    .left div.info{
+        line-height: 2;
+    }
+}/*  closes tablet media query tablet */
+
+/* mobile view-500px */
+
+@media(max-width: 500px){
+
+    nav{
+        flex-wrap: wrap;
+        justify-content:center;
+        padding-bottom: 1%;
+    }
+    .link{
+        width:100%;
+    }
+    /* about sectin style */
+
+    #about{
+        background-image: none;
+        background-color: lightgrey;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #about div{
+        margin:0;
+        width:80%;
+    }
+
+    /* shop section styles */
+
+    .container{
+        justify-content: center;
+    }
+    .shop{
+
+    }
+    
+    .cacti, .tropicals, .succulants .text{
+        width: 80%;
+    }
+    .text div{
+        width: 100%;
+    }
+    .cacti, .tropicals, .succulants{
+        height: 40vh;
+    }
+    .one{
+        order:1;
+    }
+    .two{
+        order:2;
+    }
+    .three{
+        order:3;
+    }
+    .four{
+        order:4;
+    }
+    .five{
+        order:5;
+    }
+    .six{
+        order:6;
+    }
+    footer{
+        justify-content: center;
+    }
+    footer h2, .left, .right, .bottom{
+        width: 90%;
+        text-align: center;
+    }
+    footer h3{
+        text-align: center;
+    }
+    .bottom p{
+        margin-right:0;
+        margin-left: 5%;
+
+    }
+    .right{
+        order: -1;
+    }
+    h2{
+        order: -2;
+    }
+}/* closes media query for mobile  */
